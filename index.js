@@ -1,6 +1,6 @@
 const express=require("express")
 const {connection}=require("./Config/db");
-const { UserRouter } = require("./Routes/user.router");
+const UserRouter = require("./Routes/user.router");
 const FlightRouter = require("./Routes/flight.router");
 const BookingRouter = require("./Routes/booking.router");
 

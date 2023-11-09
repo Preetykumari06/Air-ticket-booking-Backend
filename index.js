@@ -5,7 +5,7 @@ const FlightRouter = require("./Routes/flight.router");
 const BookingRouter = require("./Routes/booking.router");
 
 
-require('dotenv').config();
+require('dotenv').config()
 const port= process.env.PORT || 4000;
 
 
